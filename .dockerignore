@@ -1,0 +1,27 @@
+# Ignore Python cache and compiled files
+**/__pycache__
+**/*.pyc
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+
+# Ignore Django static files (they'll be collected during the build)
+static/
+media/
+
+# Ignore local git repo files
+.git
+.gitignore
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore logs and temp files
+*.log
+*.pid
+
+# Ignore local environment files
+.env
+.env.*
